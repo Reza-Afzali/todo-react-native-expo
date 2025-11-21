@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# 📱 To-Do List App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and user-friendly **To-Do List Application** built using **React Native + Expo**.  
+Supports a **5-day calendar navigation**, task management, priority controls, checkboxes, deletion, and **persistent data saving** using AsyncStorage.
 
-## Get started
+---
 
-1. Install dependencies
+# 🔰 GitHub Badges
 
-   ```bash
-   npm install
-   ```
+![Expo](https://img.shields.io/badge/Expo-49.0.0-blue)
+![React Native](https://img.shields.io/badge/React%20Native-0.74-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+# ✨ Features
 
-In the output, you'll find options to open the app in a
+### 🗓️ Calendar View
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Scrollable **5-day** horizontal calendar
+- Navigation using **left** and **right** arrows
+- Active day is highlighted
+- Days with tasks show a **green underline**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 📝 Task Management
 
-## Get a fresh project
+- Add tasks
+- Delete tasks
+- Mark tasks as **done**
+- Tasks display for the selected day only
+- Checkbox to toggle completion
+- Priority arrows:
+  - ↑ Move task up
+  - ↓ Move task down
 
-When you're ready, run:
+### 💾 Persistent Storage (AsyncStorage)
 
-```bash
-npm run reset-project
-```
+- All tasks save automatically
+- Tasks restore on app open
+- Selected day resets to today (as required)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🎨 UI Interaction Behavior
 
-## Learn more
+- A **white line** opens/closes the calendar
+- White line disappears when the menu is open
+- Calendar closes when tapping outside
+- Simple and clean layout
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
